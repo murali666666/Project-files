@@ -1,0 +1,60 @@
+body
+{
+
+    background-color: bisque;
+    margin: 0;
+}
+nav ul
+{
+    margin: 0;
+    padding: 0;
+
+}
+nav ul
+{
+    background-color: rgba(0,0,0,0.9);
+
+
+}
+nav ul li
+{
+
+    display: inline;
+
+}
+nav ul li a
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 14px 25px;
+    color: white;
+
+}
+nav ul li a:hover
+{
+    color: rgba(255,255,255,0.7);
+
+
+}
+nav ul li a:active
+{
+    color: grey;
+}
+#search
+{
+    float: right;
+}
+#home
+{
+    margin-left: 400px;
+}
+.home
+{
+    display: inline-block;
+    background-color: red;
+    list-style-type: none;
+    text-align: center;
+
+    text-decoration: none;
+}

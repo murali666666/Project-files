@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13_DOM_events</title>
+    <style>
+      body{
+          font-family: "Comic Sans MS", sans-serif;
+      }
+        div{
+            background-color: gray;
+            padding: 10px;
+            color: white;
+            width: 400px;
+        }
+        input{
+            border: 2px solid black;
+        }
+        #result-div{
+
+
+        }
+
+    </style>
+</head>
+<body>
+<h2>JS Event Handling</h2>
+<div>
+    <form>
+        <label>User Name</label>
+        <input type="text" id="username">
+        <br>
+        <label>
+            Password
+        </label>
+        <input type="password" id="password">
+        <br>
+        <button type="button" onclick="getValues()">get values</button>
+    </form>
+</div>
+<h2>Javascript Event Listeners</h2>
+<div>
+    <form>
+        <label>enter text</label>
+        <input type="text" id="userInput">
+    </form>
+</div>
+<br>
+<div id="result-div">
+    <h1 id="userInputText"></h1>
+</div>
+<script>
+    function getValues() {
+        var userName=document.querySelector('#username').value;
+        var password=document.querySelector('#password').value;
+       // alert("username:  "+userName+ "  password:  " +password);
+        if (userName === 'murali' && password === 'qwerty'){
+            document.querySelector('#username').style.borderColor='green';
+            document.querySelector('#password').style.borderColor='green';
+        }
+        else
+            document.querySelector('#username').style.borderColor='red';
+        document.querySelector('#password').style.borderColor='red';
+    }
+</script>
+</body>
+</html>

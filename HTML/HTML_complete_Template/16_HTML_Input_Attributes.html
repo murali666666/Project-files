@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Attributes</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-color: gray;
+            color: black;
+            padding: 10px;
+            width: 400px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 align="center">HTML Input Attributes</h1>
+
+    <!-- Input Attribute Value --->
+    <h2>Input Attribute 'Value'</h2>
+    <div>
+        <form>
+            <label>User name</label>
+            <input type="text" value="murali" id="user">
+            <input type="submit" value="submit"
+            onclick="alert(document.getElementById('user').value)" >
+        </form>
+    </div>
+    <!-- Input Attribute readonly --->
+    <h2>Input Attribute 'readonly'</h2>
+    <div>
+        <form>
+            <label>User Name</label>
+            <input type="text" value="Murali" readonly>
+        </form>
+    </div>
+    <!-- Input Attribute disabled --->
+    <h2>Input Attribute 'disabled'</h2>
+    <div>
+        <form>
+            <label>User Name</label>
+            <input type="text" value="Murali" disabled>
+            </form>
+    </div>
+    <!-- Input Attribute size --->
+    <h2>Input Attribute 'size'</h2>
+    <div>
+        <form>
+            <label>user name</label>
+            <input type="text" size="30" >
+            <input type="text" size="5" >
+            <input type="text" size="10" >
+        </form>
+    </div>
+    <!-- Input Attribute rows , cols --->
+    <h2>Input Attribute 'rows' , 'cols'</h2>
+    <div>
+        <form>
+            <label>text area</label>
+            <textarea rows="5" cols="40" >murali</textarea>
+        </form>
+    </div>
+
+    <h1 align="center">HTML 5 Input Attributes</h1>
+
+
+    <!-- Input Attribute required --->
+    <h2>Input Attribute 'required'</h2>
+    <div>
+        <form>
+            <label>User name <span>*</span> </label>
+            <input type="text" required>
+            <input type="submit" value="submit" >
+        </form>
+    </div>
+    <!-- Input Attribute novalidate --->
+    <h2>Input Attribute 'novalidate'</h2>
+    <div>
+        <form novalidate>
+            <label>user name</label>
+            <input type="url">
+            <input type="submit" value="submit" >
+        </form>
+    </div>
+    <!-- Input Attribute autofocus --->
+    <h2>Input Attribute 'autofocus'</h2>
+    <div>
+        <form>
+            <label>user name</label>
+            <input type="text" autofocus>
+        </form>
+    </div>
+    <!-- Input Attribute pattern --->
+    <h2>Input Attribute 'pattern'</h2>
+    <div>
+        <form>
+            <label>enter user name</label>
+            <input type="text" pattern="^[A-Za-z0-9_](1,15)$" >
+            <input type="submit" value="submit" >
+        </form>
+    </div>
+    <!-- goto google 
+        html5paterns-->
+    <!-- Input Attribute placeholder --->
+    <h2>Input Attribute 'placeholder'</h2>
+
+    <div>
+        <form>
+            <label>usser name</label>
+            <input type="text" placeholder="Enter user Name">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+<br><br><br>
+</body>
+</html>

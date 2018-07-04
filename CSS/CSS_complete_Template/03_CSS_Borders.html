@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        div
+        {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 560px;
+        }
+        #rounded
+        {
+            border:5px double black;
+            border-radius: 10px;
+        }
+        #roundedtwo
+        {
+            border: 7px solid black;
+            border-top-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
+        #cos
+        {
+            height: 350px;
+            padding: 0;
+            margin-bottom: 100px;
+            border-top: 60px solid red;
+            border-right: 80px solid black;
+            border-left: 60px solid yellow;
+            border-bottom: 80px solid gray;
+        }
+    </style>
+</head>
+<body>
+
+<!-- BORDER TOP -->
+<div style="border-top:5px solid black">
+    <h2>Border TOP</h2>
+</div>
+<!-- BORDER RIGHT -->
+<div style="border-right:5px solid black">
+    <h2>Border Right</h2>
+</div>
+<!-- BORDER BOTTOM -->
+<div style="border-bottom:5px solid black">
+    <h2>Border Bottom</h2>
+</div>
+<!-- BORDER LEFT -->
+<div style="border-left:5px solid black">
+    <h2>Border left</h2>
+</div>
+<!-- BORDER ALL SIDES -->
+<div style="border:5px solid black">
+    <h2>Border all</h2>
+</div>
+<!-- ROUNDER BORDER ALL SIDES -->
+<div id="rounded">
+    <h2>Border rounded all</h2>
+</div>
+<!-- Rounded two sides-->
+<div id="roundedtwo">
+    <h2>Rounded two sides</h2>
+</div >
+<!-- CUSTOM BORDER -->
+<div id="cos">
+
+    <iframe width="560" height="350" src="https://www.youtube.com/embed/y3UH2gAhwPI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>

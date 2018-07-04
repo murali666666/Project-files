@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        .backgroundImage
+        {
+            background-image: url("img/gallery1.jpeg");
+            width: 400px;
+            height: 350px;
+            padding: 10px;
+        }
+        .imagePosition
+        {
+            width: 400px;
+            height: 400px;
+            background-color: gray;
+            background-image: url("img/nature.jpg");
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+        .imageRepeat
+        {
+            width: 400px;
+            height: 400px;
+            background-color: gray;
+            background-image: url("img/nature.jpg");
+            background-repeat: repeat-y;
+
+
+        }
+        .bgat
+        {
+
+            height: 100px;
+            background: url("img/gallery3.jpeg") fixed bottom;
+        }
+    </style>
+</head>
+<body>
+
+<!-- BACKGROUND COLOR -->
+<p style="background-color: teal">I am TEAL background</p>
+
+<!-- BACKGROUND IMAGE -->
+<div class="backgroundImage">
+ <h2> backgroung image </h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto culpa cum eligendi est eveniet facilis ipsum, labore modi nihil nostrum numquam placeat quibusdam ratione sequi soluta velit voluptas. Aperiam at consectetur doloremque enim error esse est ex excepturi exercitationem harum inventore molestiae nisi reiciendis repellendus similique, vel vitae? Pariatur.</p>
+</div>
+
+<br>
+<!-- background attachment-->
+<div class="bgat">
+
+</div>
+<br>
+<!-- BACKGROUND IMAGE POSITION -->
+<div class="imagePosition">
+</div>
+<br>
+<!-- BACKGROUND IMAGE REPEAT -->
+<div class="imageRepeat">
+</div>
+
+</body>
+</html>
